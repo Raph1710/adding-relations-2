@@ -1,0 +1,42 @@
+.rating-widget {
+    margin-top: 15px;
+  }
+  
+  .stars-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .star.empty {
+    color: #ddd;
+  }
+  
+  .star.filled {
+    color: gold;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .submit-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
